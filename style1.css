@@ -2,17 +2,22 @@
 
 background-image: url("Images/clockt.jpg");
 background-size:cover;
+display:inline-block;
 
 }
 .xyz {
+background-image: url("Images/wooden.jpg");
 background-color:#000000;
 color:#FFFAF0;
-position:relative;
-left:62.5%;
+position:absolute;
+left:60%;
+top:20%;
+margin-bottom:20%;
 display:flex;
 flex-wrap:wrap;
-margin-top:-10%;
+
 zoom:1.25;
+text-align:center;
 
 }
 .boss {
@@ -27,7 +32,23 @@ backround-color:#C71585;
 }
 .texter {
 position:relative;
-left:16%;
-margin-top:6.5%;
-zoom:1.5;
+left:50%;
+margin-top:27.5%;
+}
+.bich{
+margin:0 auto;
+padding:6px;
+}
+.bich1:hover {
+border:1.5px solid #0000FF;
+background-color:#B0C4DE;
+}
+.headmain{
+position:relative;
+left:220%;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+font-size:75px;
+font-weight:bold;
+color:#FFFFFF;	
+transform:translate(100px,-430px);
 }
