@@ -52,3 +52,26 @@ font-weight:bold;
 color:#FFFFFF;	
 transform:translate(100px,-430px);
 }
+.connect{
+
+}
+.connecttext{
+background-color:#000000;
+opacity:0.6;
+font-size:40px;
+text-decoration: none;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+position:absolute;
+left:58.8%;
+top:40%;
+}
+.connecttext:hover{
+background-color:#000000;
+opacity:0.8;
+font-size:40px;
+text-decoration: none;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+position:absolute;
+left:58.8%;
+top:40%;
+}
