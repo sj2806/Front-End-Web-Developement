@@ -6,14 +6,12 @@ display:inline-block;
 .xyz {
 background-image:url("Images/wooden.jpg");
 color:#FFFAF0;
-position:relative;
-left:170%;
-margin-top:-100%;
 }
 .chota{
 display:inline-block;
-position:relative;
-left:25%;
+position:absolute;
+left:60%;
+top:21%;
 }
 .texter {
 position:relative;
@@ -28,8 +26,8 @@ border:1.5px solid #0000FF;
 background-color:#B0C4DE;
 }
 .headmain{
-position:relative;
-left:220%;
+position:absolute;
+left:66.5%;
 font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 font-size:75px;
 font-weight:bold;
