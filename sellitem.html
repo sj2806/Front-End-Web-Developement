@@ -1,0 +1,145 @@
+<html>
+<head>
+<link rel="stylesheet" href="style4.css">
+<title>Upload your item</title>
+</head>
+<body class="abc">
+<div class="texter">
+<img src="Images/clocktadjnew.jpg">
+</div>
+<br>
+<div class="headmain">
+<p>BECH DE</p>
+</div>
+<div class="chota">
+<fieldset class="xyz">
+<form class="boss" action="/sell" method="post">
+<label>Title:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" placeholder="Give an attractive title" size="30" maxlength="100" name="myname">
+<br>
+<label>Price:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" placeholder="Be Reasonable" size="30" maxlength="25" name="idno">
+<br>
+<label>Number of years used:&nbsp&nbsp</label>
+<select name="hostel">
+  <option value="none">Choose</option>
+  <option value="lessthanone"><1</option>
+  <option value="one">1</option>
+  <option value="two">2</option>
+  <option value="three">3</option>
+  <option value="four">4</option>
+  <option value="morethanfour">>4</option>
+</select>
+<br>
+<label id="giri">Category:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<select id="ddl1" name="catag" onchange="configureDropDownLists(this,document.getElementById('ddl2'))">
+  <option value="none">Choose</option>
+  <option value="electronics">Electronics</option>
+  <option value="cycle">Cycle</option>
+  <option value="books">Books</option>
+  <option value="chegg">Chegg Account</option>
+  <option value="trunk">Trunk</option>
+  <option value="bed">Mattress/Pillow</option>
+  <option value="stationary">Stationary</option>
+  <option value="stubs">Stubs</option>
+  <option value="others">Others</option>
+</select>
+<br>
+<label>Sub-Category:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+
+<select id="ddl2">
+</select>
+<script type="text/javascript">
+     function configureDropDownLists(ddl1,ddl2) {
+    var electronics = ["Laptop/Mobiles","Kettle","Heater/Fan/Cooler","Cables","Audio Devices","Router"];
+    var cycle = ["Boys","Girls","Gear"];
+    var books =["1st Year","2nd Year","3rd Year","4th Year","M.Sc.","Others"] ;
+    var chegg = ["For Rent","For Sale"];
+    var trunk = ["Small","Big"];
+    var bed = ["Matteress","Pillow","Set of both"];
+    var stationary = ["Whiteboard","Calculator","Others"];
+    var stubs = ["Prof Shows","Grub","Others"];
+    var others = ["NA"];
+	
+    switch (ddl1.value) {
+        case 'electronics':
+            ddl2.options.length = 0;
+            for (i = 0; i < electronics.length; i++) {
+                createOption(ddl2, electronics[i], electronics[i]);
+            }
+            break;
+        case 'cycle':
+            ddl2.options.length = 0; 
+        for (i = 0; i < cycle.length; i++) {
+            createOption(ddl2, cycle[i], cycle[i]);
+            }
+            break;
+        case 'books':
+            ddl2.options.length = 0;
+            for (i = 0; i < books.length; i++) {
+                createOption(ddl2, books[i], books[i]);
+            }
+            break;
+        case 'chegg':
+            ddl2.options.length = 0;
+            for (i = 0; i < chegg.length; i++) {
+                createOption(ddl2, chegg[i], chegg[i]);
+            }
+            break;
+        case 'trunk':
+            ddl2.options.length = 0; 
+        for (i = 0; i < trunk.length; i++) {
+            createOption(ddl2, trunk[i], trunk[i]);
+            }
+            break;
+        case 'bed':
+            ddl2.options.length = 0;
+            for (i = 0; i < bed.length; i++) {
+                createOption(ddl2, bed[i], bed[i]);
+            }
+            break;
+        case 'stationary':
+            ddl2.options.length = 0;
+            for (i = 0; i < stationary.length; i++) {
+                createOption(ddl2, stationary[i], stationary[i]);
+            }
+            break;
+        case 'stubs':
+            ddl2.options.length = 0; 
+        for (i = 0; i < stubs.length; i++) {
+            createOption(ddl2, stubs[i], stubs[i]);
+            }
+            break;
+        case 'others':
+            ddl2.options.length = 0;
+            for (i = 0; i < others.length; i++) {
+                createOption(ddl2, others[i], others[i]);
+            }
+            break;
+            default:
+                ddl2.options.length = 0;
+            break;
+    }
+
+}
+
+    function createOption(ddl, text, value) {
+        var opt = document.createElement('option');
+        opt.value = value;
+        opt.text = text;
+        ddl.options.add(opt);
+    }
+</script>
+
+<br>
+<label>Description:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" placeholder="Be short and precise." size="50" name="description">
+<br>
+<div>
+<input class="bich1" type="submit" text="Submit" size="25">
+</div>
+</form>
+</fieldset>
+</div>
+</body>
+</html>

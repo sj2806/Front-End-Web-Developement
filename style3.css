@@ -1,0 +1,173 @@
+
+.god{
+background-color:#000000;
+height:7.5%;
+display:flex;
+flex-direction:row;
+position:fixed;
+width:100%;
+top:0;
+}
+.logo{
+width:1%;
+height:100%;
+margin:auto;
+zoom:0.05;
+position:absolute;
+left:20%;
+}
+.le{
+width:35%;
+height:100%
+margin:auto;
+position:absolute;
+left:35%;
+text-align:center;
+font-family: Dosis, sans-serif;
+font-weight: 700;
+font-size:50px;
+color:#FFFFFF;
+}
+.user{
+width:25%;
+height:100%;
+margin:auto;
+text-align:center;
+font-family: Dosis, sans-serif;
+font-weight: 700;
+font-size:30px;
+margin-top:10px;
+color:#FFFFFF;
+position:absolute;
+left:60%;
+}
+.inuser{
+color:#0000FF;
+text-decoration:none;
+}
+.inuser:hover{
+color:#0000FF;
+opacity:0.6;
+text-decoration:underline;
+}
+.user:hover{
+width:25%;
+height:100%;
+margin:auto;
+text-align:center;
+font-family: Dosis, sans-serif;
+font-weight: 700;
+font-size:30px;
+margin-top:10px;
+color:#FFFFFF;
+position:absolute;
+left:60%;
+}
+.logout{
+height:100%;
+margin:auto;
+text-align:center;
+font-family: Dosis, sans-serif;
+font-weight: 700;
+font-size:30px;
+margin-top:10px;
+color:#FFFFFF;
+position:absolute;
+left:90%;
+}
+.inlogout{
+color:#0000FF;
+text-decoration:none;
+}
+.logout:hover{
+height:100%;
+margin:auto;
+text-align:center;
+font-family: Dosis, sans-serif;
+font-weight: 700;
+font-size:30px;
+margin-top:10px;
+color:#FFFFFF;
+position:absolute;
+left:90%;
+}
+.inlogout:hover{
+color:#0000FF;
+text-decoration:underline;
+opacity:0.6;
+}
+
+
+
+
+
+
+
+
+
+
+.god1{
+background-color:#000000;
+opacity:0.85;
+height:15%;
+position:absolute;
+   bottom:0;
+   width:100%;
+display:flex;
+flex-direction:row;
+}
+.logo1{
+height:100%;
+margin:auto;
+position:absolute;
+left:12%;
+zoom:0.9;
+}
+.le1{
+width:35%;
+height:100%
+margin:auto;
+position:absolute;
+left:35%;
+text-align:center;
+font-family: Dosis, sans-serif;
+font-weight: 700;
+font-size:50px;
+color:#FFFFFF;
+margin-top:26px;
+}
+.user1{
+width:25%;
+height:100%;
+margin:auto;
+text-align:center;
+font-family: Dosis, sans-serif;
+font-weight: 700;
+font-size:34px;
+margin-top:34px;
+color:#FFFFFF;
+position:absolute;
+left:60%;
+}
+.inuser1{
+color:#0000FF;
+text-decoration:none;
+}
+.inuser1:hover{
+color:#0000FF;
+opacity:0.6;
+text-decoration:underline;
+}
+.user1:hover{
+width:25%;
+height:100%;
+margin:auto;
+text-align:center;
+font-family: Dosis, sans-serif;
+font-weight: 700;
+font-size:34px;
+margin-top:34px;
+color:#FFFFFF;
+position:absolute;
+left:60%;
+}
