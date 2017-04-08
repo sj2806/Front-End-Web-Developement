@@ -44,8 +44,8 @@ border:1.5px solid #0000FF;
 background-color:#B0C4DE;
 }
 .headmain{
-position:relative;
-left:220%;
+position:absolute;
+left:58%;
 font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 font-size:75px;
 font-weight:bold;
