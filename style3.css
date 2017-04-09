@@ -4,7 +4,7 @@ background-color:#000000;
 height:7.5%;
 display:flex;
 flex-direction:row;
-position:absolute;
+position:fixed;
 width:100%;
 top:0;
 }
@@ -111,7 +111,7 @@ opacity:0.6;
 background-color:#000000;
 opacity:0.85;
 height:15%;
-position:fixed;
+position:absolute;
    bottom:0;
    width:100%;
 display:flex;
